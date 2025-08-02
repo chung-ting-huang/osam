@@ -87,3 +87,18 @@ class Sam2Large(Sam2):
             hash="sha256:a3ebc6b8e254bd4ca1346901b9472bc2fae9e827cfd67d67e162d0ae2b1ec9a0",
         ),
     }
+'''
+class Sam2Large(Sam2):
+    name = "sam2:large"
+
+    _blobs = {
+        "encoder": types.Blob(
+            url="file:///D:/github_code/labelme-main/labelme/model_file/sam2.1_large_preprocess.onnx",
+            hash="sha256:ab676f957528918496990f242163fd6b41a7222ae255862e846d9ab35115c12e",
+        ),
+        "decoder": types.Blob(
+            url="file:///D:/github_code/labelme-main/labelme/model_file/sam2.1_large.onnx",
+            hash="sha256:a3ebc6b8e254bd4ca1346901b9472bc2fae9e827cfd67d67e162d0ae2b1ec9a0",
+        ),
+    }
+'''
